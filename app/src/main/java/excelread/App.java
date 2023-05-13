@@ -187,7 +187,15 @@ public class App{
     
     public static void main(String[] args){
         System.out.println("Started parsing...");
-        String filePath = "/Users/sristiraj/Downloads/excelread/sample1233.xls";
+        if (args.length > 0) {
+            // Access individual command-line arguments
+            for (int i = 0; i < args.length; i++) {
+                System.out.println("Argument " + (i + 1) + ": " + args[i]);
+            }
+        } else {
+            System.out.println("No command-line arguments provided.");
+        }
+        String filePath = args[0];
 
         int[] columnIndexes = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Column indexes (0-based) to extract email strings
         int[] mainColumnIndexes = {0,1,2};
