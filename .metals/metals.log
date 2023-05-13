@@ -1,0 +1,328 @@
+2023.05.13 08:36:38 INFO  Started: Metals version 0.11.12 in workspace '/Users/sristiraj/Downloads/excelread' for client Visual Studio Code 1.76.2.
+May 13, 2023 8:36:38 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 13, 2023 8:36:38 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 13, 2023 8:36:38 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/sristiraj/Downloads/excelread/.metals/metals (H2 2.1)
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 13, 2023 8:36:39 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.087s)
+2023.05.13 08:36:39 INFO  time: initialize in 1.04s
+2023.05.13 08:36:40 WARN  Build server is not auto-connectable.
+May 13, 2023 8:36:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 13, 2023 8:36:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+May 13, 2023 8:36:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.05.13 08:36:40 WARN  no build target for: /Users/sristiraj/Downloads/excelread/app/src/main/java/excelread/App.java
+2023.05.13 08:36:45 INFO  running '/Users/sristiraj/Downloads/excelread/gradlew --console=plain --init-script /var/folders/qg/hq9vc91n3_z1q7ws9_6cv8v40000gn/T/metals2202399199195452452/init-script.gradle bloopInstall'
+May 13, 2023 8:36:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.13 08:36:51 INFO  > Task :configureBloopInstall
+2023.05.13 08:36:51 INFO  > Task :bloopInstall
+2023.05.13 08:36:51 INFO  > Task :app:configureBloopInstall
+2023.05.13 08:36:51 INFO  > Task :app:bloopInstall
+2023.05.13 08:36:51 INFO  
+2023.05.13 08:36:51 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+2023.05.13 08:36:51 INFO  
+2023.05.13 08:36:51 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2023.05.13 08:36:51 INFO  
+2023.05.13 08:36:51 INFO  See https://docs.gradle.org/8.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+2023.05.13 08:36:51 INFO  
+2023.05.13 08:36:51 INFO  BUILD SUCCESSFUL in 6s
+2023.05.13 08:36:51 INFO  4 actionable tasks: 4 executed
+2023.05.13 08:36:52 INFO  time: ran 'gradle bloopInstall' in 7.26s
+2023.05.13 08:36:52 INFO  Attempting to connect to the build server...
+2023.05.13 08:36:52 INFO  Bloop uses /Users/sristiraj/Downloads/Softwares/jdk-11.0.2.jdk/Contents/Home defined at /Users/sristiraj/.bloop/bloop.json
+2023.05.13 08:36:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/sristiraj/Downloads/excelread/.metals/bsp.trace.json or /Users/sristiraj/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.05.13 08:36:59 INFO  time: Connected to build server in 7.28s
+2023.05.13 08:36:59 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.13 08:36:59 INFO  time: Imported build in 0.16s
+2023.05.13 08:37:01 INFO  time: indexed workspace in 1.58s
+2023.05.13 08:37:02 INFO  compiling app (1 java source)
+2023.05.13 08:37:03 INFO  time: compiled app in 1.34s
+2023.05.13 08:37:19 INFO  compiling app (1 java source)
+2023.05.13 08:37:21 INFO  time: compiled app in 1.27s
+2023.05.13 08:37:35 INFO  compiling app (1 java source)
+2023.05.13 08:37:35 WARN  javac exited with exit code 1
+2023.05.13 08:37:35 INFO  time: compiled app in 0.73s
+2023.05.13 08:37:52 INFO  compiling app (1 java source)
+2023.05.13 08:37:53 INFO  time: compiled app in 1.18s
+May 13, 2023 8:38:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.13 08:39:31 INFO  compiling app (1 java source)
+2023.05.13 08:39:32 WARN  javac exited with exit code 1
+2023.05.13 08:39:32 INFO  time: compiled app in 1.21s
+2023.05.13 08:39:48 INFO  compiling app (1 java source)
+2023.05.13 08:39:50 WARN  javac exited with exit code 1
+2023.05.13 08:39:50 INFO  time: compiled app in 1.19s
+2023.05.13 08:40:01 INFO  compiling app (1 java source)
+2023.05.13 08:40:02 WARN  javac exited with exit code 1
+2023.05.13 08:40:02 INFO  time: compiled app in 1.25s
+2023.05.13 08:41:18 INFO  compiling app (1 java source)
+2023.05.13 08:41:20 WARN  javac exited with exit code 1
+2023.05.13 08:41:20 INFO  time: compiled app in 1.16s
+2023.05.13 08:43:38 INFO  compiling app (1 java source)
+2023.05.13 08:43:40 WARN  javac exited with exit code 1
+2023.05.13 08:43:40 INFO  time: compiled app in 1.17s
+2023.05.13 08:44:31 INFO  compiling app (1 java source)
+2023.05.13 08:44:32 WARN  javac exited with exit code 1
+2023.05.13 08:44:32 INFO  time: compiled app in 1.13s
+2023.05.13 08:45:47 INFO  compiling app (1 java source)
+2023.05.13 08:45:48 WARN  javac exited with exit code 1
+2023.05.13 08:45:48 INFO  time: compiled app in 1.16s
+2023.05.13 08:45:53 INFO  compiling app (1 java source)
+2023.05.13 08:45:54 WARN  javac exited with exit code 1
+2023.05.13 08:45:54 INFO  time: compiled app in 1.18s
+2023.05.13 08:46:11 INFO  compiling app (1 java source)
+2023.05.13 08:46:12 WARN  javac exited with exit code 1
+2023.05.13 08:46:12 INFO  time: compiled app in 1.27s
+2023.05.13 08:51:41 INFO  compiling app (1 java source)
+2023.05.13 08:51:43 WARN  javac exited with exit code 1
+2023.05.13 08:51:43 INFO  time: compiled app in 1.5s
+2023.05.13 08:51:47 INFO  compiling app (1 java source)
+2023.05.13 08:51:48 WARN  Using indexes to guess the definition of FileInputStream
+2023.05.13 08:51:48 WARN  javac exited with exit code 1
+2023.05.13 08:51:48 INFO  time: compiled app in 1.47s
+2023.05.13 08:52:18 INFO  compiling app (1 java source)
+2023.05.13 08:52:19 WARN  javac exited with exit code 1
+2023.05.13 08:52:19 INFO  time: compiled app in 1.35s
+2023.05.13 08:52:36 INFO  compiling app (1 java source)
+2023.05.13 08:52:37 WARN  javac exited with exit code 1
+2023.05.13 08:52:37 INFO  time: compiled app in 1.34s
+May 13, 2023 8:53:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 607
+2023.05.13 08:53:28 INFO  compiling app (1 java source)
+2023.05.13 08:53:29 WARN  javac exited with exit code 1
+2023.05.13 08:53:29 INFO  time: compiled app in 1.33s
+2023.05.13 08:53:31 INFO  compiling app (1 java source)
+2023.05.13 08:53:33 WARN  javac exited with exit code 1
+2023.05.13 08:53:33 INFO  time: compiled app in 1.28s
+2023.05.13 08:54:02 INFO  compiling app (1 java source)
+2023.05.13 08:54:04 WARN  javac exited with exit code 1
+2023.05.13 08:54:04 INFO  time: compiled app in 1.38s
+2023.05.13 08:56:38 INFO  compiling app (1 java source)
+2023.05.13 08:56:39 WARN  javac exited with exit code 1
+2023.05.13 08:56:39 INFO  time: compiled app in 1.35s
+May 13, 2023 8:57:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 770
+May 13, 2023 8:57:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 796
+2023.05.13 08:57:41 INFO  compiling app (1 java source)
+2023.05.13 08:57:41 WARN  javac exited with exit code 1
+2023.05.13 08:57:41 INFO  time: compiled app in 0.56s
+2023.05.13 08:58:25 INFO  compiling app (1 java source)
+2023.05.13 08:58:25 WARN  javac exited with exit code 1
+2023.05.13 08:58:25 INFO  time: compiled app in 0.57s
+2023.05.13 08:58:30 INFO  compiling app (1 java source)
+2023.05.13 08:58:30 WARN  javac exited with exit code 1
+2023.05.13 08:58:30 INFO  time: compiled app in 0.55s
+2023.05.13 08:58:45 INFO  compiling app (1 java source)
+2023.05.13 08:58:45 WARN  javac exited with exit code 1
+2023.05.13 08:58:45 INFO  time: compiled app in 0.57s
+2023.05.13 08:58:55 INFO  compiling app (1 java source)
+2023.05.13 08:58:57 WARN  javac exited with exit code 1
+2023.05.13 08:58:57 INFO  time: compiled app in 1.41s
+2023.05.13 08:59:22 INFO  compiling app (1 java source)
+2023.05.13 08:59:24 WARN  javac exited with exit code 1
+2023.05.13 08:59:24 INFO  time: compiled app in 1.5s
+2023.05.13 09:01:14 INFO  compiling app (1 java source)
+2023.05.13 09:01:15 WARN  javac exited with exit code 1
+2023.05.13 09:01:15 INFO  time: compiled app in 1.36s
+2023.05.13 09:02:36 INFO  compiling app (1 java source)
+2023.05.13 09:02:36 WARN  javac exited with exit code 1
+2023.05.13 09:02:36 INFO  time: compiled app in 0.55s
+2023.05.13 09:02:39 INFO  compiling app (1 java source)
+2023.05.13 09:02:41 WARN  javac exited with exit code 1
+2023.05.13 09:02:41 INFO  time: compiled app in 1.35s
+2023.05.13 09:05:59 INFO  compiling app (1 java source)
+2023.05.13 09:06:00 WARN  javac exited with exit code 1
+2023.05.13 09:06:00 INFO  time: compiled app in 1.45s
+2023.05.13 09:06:15 INFO  compiling app (1 java source)
+2023.05.13 09:06:16 WARN  javac exited with exit code 1
+2023.05.13 09:06:16 INFO  time: compiled app in 1.38s
+2023.05.13 09:07:30 INFO  compiling app (1 java source)
+2023.05.13 09:07:30 WARN  javac exited with exit code 1
+2023.05.13 09:07:30 INFO  time: compiled app in 0.54s
+May 13, 2023 9:07:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1243
+2023.05.13 09:07:40 INFO  compiling app (1 java source)
+2023.05.13 09:07:40 WARN  javac exited with exit code 1
+2023.05.13 09:07:40 INFO  time: compiled app in 0.52s
+2023.05.13 09:08:02 INFO  compiling app (1 java source)
+2023.05.13 09:08:03 WARN  javac exited with exit code 1
+2023.05.13 09:08:03 INFO  time: compiled app in 1.48s
+2023.05.13 09:09:08 INFO  compiling app (1 java source)
+2023.05.13 09:09:10 WARN  javac exited with exit code 1
+2023.05.13 09:09:10 INFO  time: compiled app in 1.4s
+2023.05.13 09:09:46 INFO  compiling app (1 java source)
+2023.05.13 09:09:48 WARN  javac exited with exit code 1
+2023.05.13 09:09:48 INFO  time: compiled app in 1.45s
+2023.05.13 09:11:10 INFO  compiling app (1 java source)
+2023.05.13 09:11:11 WARN  javac exited with exit code 1
+2023.05.13 09:11:11 INFO  time: compiled app in 1.49s
+2023.05.13 09:11:43 INFO  compiling app (1 java source)
+2023.05.13 09:11:44 WARN  javac exited with exit code 1
+2023.05.13 09:11:44 INFO  time: compiled app in 1.43s
+2023.05.13 09:13:34 INFO  compiling app (1 java source)
+2023.05.13 09:13:35 WARN  javac exited with exit code 1
+2023.05.13 09:13:35 INFO  time: compiled app in 1.45s
+2023.05.13 09:17:34 INFO  compiling app (1 java source)
+2023.05.13 09:17:36 WARN  javac exited with exit code 1
+2023.05.13 09:17:36 INFO  time: compiled app in 1.45s
+2023.05.13 09:20:24 INFO  compiling app (1 java source)
+2023.05.13 09:20:24 WARN  javac exited with exit code 1
+2023.05.13 09:20:24 INFO  time: compiled app in 0.53s
+2023.05.13 09:20:54 INFO  compiling app (1 java source)
+2023.05.13 09:20:55 WARN  javac exited with exit code 1
+2023.05.13 09:20:55 INFO  time: compiled app in 1.42s
+2023.05.13 09:21:30 INFO  compiling app (1 java source)
+2023.05.13 09:21:31 WARN  javac exited with exit code 1
+2023.05.13 09:21:31 INFO  time: compiled app in 1.43s
+2023.05.13 09:22:07 INFO  compiling app (1 java source)
+2023.05.13 09:22:09 WARN  javac exited with exit code 1
+2023.05.13 09:22:09 INFO  time: compiled app in 1.48s
+2023.05.13 09:23:38 INFO  compiling app (1 java source)
+2023.05.13 09:23:39 WARN  javac exited with exit code 1
+2023.05.13 09:23:39 INFO  time: compiled app in 1.5s
+2023.05.13 09:24:03 INFO  compiling app (1 java source)
+2023.05.13 09:24:05 WARN  javac exited with exit code 1
+2023.05.13 09:24:05 INFO  time: compiled app in 1.49s
+2023.05.13 09:24:16 INFO  compiling app (1 java source)
+2023.05.13 09:24:18 WARN  javac exited with exit code 1
+2023.05.13 09:24:18 INFO  time: compiled app in 1.42s
+May 13, 2023 9:24:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2133
+2023.05.13 09:25:07 INFO  compiling app (1 java source)
+2023.05.13 09:25:07 WARN  javac exited with exit code 1
+2023.05.13 09:25:07 INFO  time: compiled app in 0.59s
+2023.05.13 09:25:16 INFO  compiling app (1 java source)
+2023.05.13 09:25:18 WARN  javac exited with exit code 1
+2023.05.13 09:25:18 INFO  time: compiled app in 1.44s
+2023.05.13 09:25:43 INFO  compiling app (1 java source)
+2023.05.13 09:25:44 WARN  javac exited with exit code 1
+2023.05.13 09:25:44 INFO  time: compiled app in 1.61s
+2023.05.13 09:31:44 INFO  compiling app (1 java source)
+2023.05.13 09:31:46 WARN  javac exited with exit code 1
+2023.05.13 09:31:46 INFO  time: compiled app in 1.52s
+2023.05.13 09:31:53 INFO  compiling app (1 java source)
+2023.05.13 09:31:54 WARN  javac exited with exit code 1
+2023.05.13 09:31:54 INFO  time: compiled app in 1.52s
+2023.05.13 09:32:23 INFO  compiling app (1 java source)
+2023.05.13 09:32:24 WARN  javac exited with exit code 1
+2023.05.13 09:32:24 INFO  time: compiled app in 1.5s
+2023.05.13 09:32:31 INFO  compiling app (1 java source)
+2023.05.13 09:32:32 WARN  javac exited with exit code 1
+2023.05.13 09:32:32 INFO  time: compiled app in 1.47s
+2023.05.13 09:32:39 INFO  compiling app (1 java source)
+2023.05.13 09:32:40 WARN  javac exited with exit code 1
+2023.05.13 09:32:40 INFO  time: compiled app in 1.46s
+May 13, 2023 9:33:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2478
+2023.05.13 09:33:03 INFO  compiling app (1 java source)
+2023.05.13 09:33:05 WARN  javac exited with exit code 1
+2023.05.13 09:33:05 INFO  time: compiled app in 1.51s
+2023.05.13 09:34:07 INFO  compiling app (1 java source)
+2023.05.13 09:34:08 WARN  javac exited with exit code 1
+2023.05.13 09:34:08 INFO  time: compiled app in 1.62s
+2023.05.13 09:34:10 INFO  compiling app (1 java source)
+2023.05.13 09:34:11 WARN  javac exited with exit code 1
+2023.05.13 09:34:11 INFO  time: compiled app in 1.4s
+2023.05.13 09:34:11 INFO  compiling app (1 java source)
+2023.05.13 09:34:13 WARN  javac exited with exit code 1
+2023.05.13 09:34:13 INFO  time: compiled app in 1.39s
+2023.05.13 09:34:34 INFO  compiling app (1 java source)
+2023.05.13 09:34:36 WARN  javac exited with exit code 1
+2023.05.13 09:34:36 INFO  time: compiled app in 1.56s
+2023.05.13 09:35:29 INFO  compiling app (1 java source)
+2023.05.13 09:35:30 WARN  javac exited with exit code 1
+2023.05.13 09:35:30 INFO  time: compiled app in 1.46s
+2023.05.13 09:35:33 INFO  compiling app (1 java source)
+2023.05.13 09:35:35 WARN  javac exited with exit code 1
+2023.05.13 09:35:35 INFO  time: compiled app in 1.44s
+2023.05.13 09:36:18 INFO  compiling app (1 java source)
+2023.05.13 09:36:19 WARN  javac exited with exit code 1
+2023.05.13 09:36:19 INFO  time: compiled app in 1.52s
+May 13, 2023 9:38:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2677
+2023.05.13 09:38:47 INFO  compiling app (1 java source)
+2023.05.13 09:38:48 WARN  javac exited with exit code 1
+2023.05.13 09:38:48 INFO  time: compiled app in 1.41s
+2023.05.13 09:39:07 INFO  compiling app (1 java source)
+2023.05.13 09:39:07 WARN  javac exited with exit code 1
+2023.05.13 09:39:07 INFO  time: compiled app in 0.6s
+2023.05.13 09:39:10 INFO  compiling app (1 java source)
+2023.05.13 09:39:10 WARN  javac exited with exit code 1
+2023.05.13 09:39:10 INFO  time: compiled app in 0.55s
+2023.05.13 09:39:15 INFO  compiling app (1 java source)
+2023.05.13 09:39:17 WARN  javac exited with exit code 1
+2023.05.13 09:39:17 INFO  time: compiled app in 1.44s
+2023.05.13 09:39:40 INFO  compiling app (1 java source)
+2023.05.13 09:39:41 WARN  javac exited with exit code 1
+2023.05.13 09:39:41 INFO  time: compiled app in 1.43s
+2023.05.13 09:41:03 INFO  compiling app (1 java source)
+2023.05.13 09:41:05 WARN  javac exited with exit code 1
+2023.05.13 09:41:05 INFO  time: compiled app in 1.51s
+2023.05.13 09:41:46 INFO  compiling app (1 java source)
+2023.05.13 09:41:48 WARN  javac exited with exit code 1
+2023.05.13 09:41:48 INFO  time: compiled app in 1.47s
+May 13, 2023 9:42:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2919
+2023.05.13 09:42:35 INFO  compiling app (1 java source)
+2023.05.13 09:42:37 WARN  javac exited with exit code 1
+2023.05.13 09:42:37 INFO  time: compiled app in 1.46s
+May 13, 2023 9:46:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2989
+2023.05.13 09:47:14 INFO  compiling app (1 java source)
+2023.05.13 09:47:16 WARN  javac exited with exit code 1
+2023.05.13 09:47:16 INFO  time: compiled app in 1.49s
+2023.05.13 09:47:26 INFO  compiling app (1 java source)
+2023.05.13 09:47:27 WARN  javac exited with exit code 1
+2023.05.13 09:47:27 INFO  time: compiled app in 1.44s
+2023.05.13 10:05:04 INFO  compiling app (1 java source)
+2023.05.13 10:05:06 WARN  javac exited with exit code 1
+2023.05.13 10:05:06 INFO  time: compiled app in 1.53s
+2023.05.13 10:05:24 INFO  compiling app (1 java source)
+2023.05.13 10:05:26 WARN  javac exited with exit code 1
+2023.05.13 10:05:26 INFO  time: compiled app in 1.44s
+2023.05.13 10:08:09 INFO  compiling app (1 java source)
+2023.05.13 10:08:11 WARN  javac exited with exit code 1
+2023.05.13 10:08:11 INFO  time: compiled app in 1.58s
+2023.05.13 10:08:37 INFO  compiling app (1 java source)
+2023.05.13 10:08:38 WARN  javac exited with exit code 1
+2023.05.13 10:08:38 INFO  time: compiled app in 1.45s
+2023.05.13 10:09:00 INFO  compiling app (1 java source)
+2023.05.13 10:09:02 WARN  javac exited with exit code 1
+2023.05.13 10:09:02 INFO  time: compiled app in 1.51s
+2023.05.13 10:09:09 INFO  compiling app (1 java source)
+2023.05.13 10:09:11 WARN  javac exited with exit code 1
+2023.05.13 10:09:11 INFO  time: compiled app in 1.42s
+2023.05.13 10:09:29 INFO  compiling app (1 java source)
+2023.05.13 10:09:30 WARN  javac exited with exit code 1
+2023.05.13 10:09:30 INFO  time: compiled app in 1.42s
+May 13, 2023 10:09:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3568
+2023.05.13 10:09:56 INFO  compiling app (1 java source)
+2023.05.13 10:09:58 WARN  javac exited with exit code 1
+2023.05.13 10:09:58 INFO  time: compiled app in 1.43s
+2023.05.13 10:12:59 INFO  skipping build import with status 'Dismissed'
+2023.05.13 10:13:41 INFO  skipping build import with status 'Dismissed'

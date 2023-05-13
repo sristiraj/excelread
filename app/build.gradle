@@ -1,0 +1,42 @@
+plugins {
+    id 'application' 
+}
+
+
+repositories {
+    mavenCentral() 
+    gradlePluginPortal()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1' 
+
+    implementation 'com.google.guava:guava:31.1-jre' 
+
+        // Apache POI - Core
+    implementation 'org.apache.poi:poi:5.1.0'
+
+    // Apache POI - OOXML (for XLSX support)
+    implementation 'org.apache.poi:poi-ooxml:5.1.0'
+
+}
+
+application {
+    mainClass = 'excelread.App' 
+}
+
+tasks.named('test') {
+    useJUnitPlatform() 
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'excelread.App' // Replace with your main class
+    }
+    archiveFileName = "${project.name}-fat.jar" // Set the desired name for the fat JAR
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE // Set the duplicates handling strategy
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+}
